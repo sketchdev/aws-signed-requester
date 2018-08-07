@@ -1,0 +1,19 @@
+{
+  "name": "aws-signed-requester",
+  "version": "1.0.0",
+  "description": "lambda function that makes aws signed (sig4) https requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws4": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4"
+  }
+}

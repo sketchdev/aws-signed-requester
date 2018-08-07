@@ -1,0 +1,1 @@
+zip ../aws-signed-requester.zip -r * .[^.]* --exclude *.git* --exclude=*.DS_Store* --exclude=zipit.sh --exclude=.idea* --exclude=test*
